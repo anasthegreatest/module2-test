@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+h1{
+    color: red;
+    text-align: center;
+    font-size: 1.5em;
+    margin:0;
+}
+.box{
+    width:30%;
+    background-color: gray;
+    border: 1px solid black;
+    margin: 1.5em;
+    padding:0;
+    display: inline-block;
+    height:33%;
+}
+.content-name{
+    float: right;
+    clear: both;
+    border: 1px solid black;
+    width:45%;
+    height:1.5em;
+    margin:0;
+    padding:0;
+    display:block;
+    font-size: 100%;
+    text-align:center;
+    font-family: "Comic Sans MS", cursive, sans-serif ;
+}
+.content{
+    padding:.5em;
+    display:block;
+    float:left;
+    clear:both;
+    font-size:100%;
+}
+.name1{
+    background-color:pink;
+    color:black;
+}
+.name2{
+    background-color: red;
+    color:white;
+}
+.name3{
+    background-color: beige;
+    color:black;
+}
